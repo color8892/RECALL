@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RECALL Tracker 設定</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #1e1e1e; color: #ccc; }
+    h2 { color: #fff; }
+    input { width: 360px; padding: 8px; background: #2d2d2d; border: 1px solid #444; color: #fff; border-radius: 4px; }
+    button { padding: 8px 16px; background: #2196f3; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #1976d2; }
+    .status { margin-top: 10px; color: #4caf50; font-size: 0.9em; }
+    .hint { margin-top: 20px; font-size: 0.9em; color: #aaa; line-height: 1.6; max-width: 560px; }
+    .error { color: #ffb74d; }
+  </style>
+</head>
+<body>
+  <h2>RECALL 設定</h2>
+  <div>
+    <label>RPC Token:</label><br>
+    <input type="text" id="token" placeholder="先在 RECALL 主程式按「複製 Token」，再貼到這裡">
+    <button id="save">儲存</button>
+  </div>
+  <div id="status" class="status"></div>
+  
+  <div class="hint">
+    設定方式：先啟動 RECALL 主程式，按右上角的「複製 Token」，回到此頁貼上後按「儲存」。<br>
+    Token 也會存放在專案目錄下的 <code>.recall_token</code> 檔案中；一般只需要設定一次。
+  </div>
+  
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Pillow>=9.0.0
+pillow-avif-plugin
+numpy>=1.21.0,<2.4
+pywin32>=305
+mss>=9.0.1
+psutil
+llama-cpp-python>=0.3.0
+winsdk

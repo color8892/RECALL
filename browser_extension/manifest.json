@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "RECALL Tracker",
+  "version": "1.0",
+  "description": "即時將目前的網址與網頁標題傳送給 RECALL 的本機伺服器",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8085/*",
+    "http://localhost:8085/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "options_page": "options.html"
+}
