@@ -1,4 +1,5 @@
 # RECALL: 具備視覺大腦的個人數位記憶助理
+https://docs.google.com/presentation/d/1Y8JWxlMqTdzG-9CaQTMjSLthBGedHEkF1Ps68yhipBM/edit?slide=id.p5#slide=id.p5
 
 RECALL 是一個以「本地優先、視覺驅動」為設計目標的個人記憶系統。它不僅記錄您的螢幕內容，更透過 VLM (視覺大語言模型) 像人一樣「看懂」您的操作脈絡，協助您在海量紀錄中瞬間找回遺忘的細節。
 
